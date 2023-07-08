@@ -21,6 +21,8 @@ import (
 	"net/http"
 	"net/url"
 	"time"
+
+	_ "github.com/motemen/go-loghttp/global"
 )
 
 // CommitsService handles communication with the commit related methods
